@@ -1,0 +1,40 @@
+
+
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar color="mycolor">
+      <ion-buttons slot="end">
+        <ion-button [routerLink]="['/login']" (click)="signOut()"><ion-icon  name="log-in"></ion-icon> </ion-button>
+      </ion-buttons>
+      <ion-title class="bienvenidos" ><i>Checkin Energy vibes</i></ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    
+    <div class="image">
+    <div class="">
+    
+    <ion-grid  >
+    
+   
+    
+      <ion-row>
+        
+        <ion-col>
+          <div id="container2">
+            <button ion-button [routerLink]="['/checkin']" class="btn">
+              <ion-icon slot="start" name="person"></ion-icon> <br>Reservas Realizadas</button>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+       
+      
+      </ion-row>
+    </ion-grid>
+  </div>
+  </div>
+ 
+  </ion-content>  
+</div>
